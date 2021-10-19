@@ -1,0 +1,41 @@
+@media(min-width:750px){
+
+body{
+	background-color: #efefef;
+	font-family: verdana;
+	justify-content:space-between;
+}
+.info{
+	text-align:center;
+}
+.container-1{
+  display:flex;
+}
+.container-1 div{
+	border:1px #ccc solid;
+	padding:10px;
+	text-align:center;
+}
+.email{
+	flex:2;
+	order:2;
+}
+.phone{
+	flex:1;
+	order:1;
+}
+.linkedin{
+	flex:1;
+	order:3;
+}
+
+#cssum{
+	text-align:center;
+}
+#wexp{
+	text-align:center;
+}
+#edu{
+	text-align:center;
+}
+}
